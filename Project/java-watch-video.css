@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+
+
+.nav-bar{
+    background-color: rgba(104, 104, 254, 0.963);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 160px;
+    margin-top: 15px;
+}
+.logo{
+    background-image: url("logo.png");
+    height:80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+.Corporate {
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    
+}
+.nav-Courses{
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.nav-categ{
+    color: black;
+    size: 40px;
+}
+.button{
+    background-color: transparent;
+    border: none;
+}
+
+.search-bar{
+    width: 100%;
+    height: 40px;
+    max-width: 600px;
+    background-color: rgba(255,255,255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    
+}
+.search-bar input{
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+::placeholder{
+    color: #cac7ff;
+}
+.Search-icon{
+
+    width: 25px;
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Search-icon span{
+    font-size: 28px;
+    color: white;
+}
+.cate button{
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.nav-cart{
+    width: 50px;
+    height: auto;
+}
+.nav-cart-icon{
+    color: white;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-cart-icon:hover{
+    border: 2px solid black;
+}
+.login-button-icon{
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
+}
+.signup-icon{
+    height: 40px;
+    width: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0.9;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+.nav-2{
+    background-color: aqua;
+    height: 40px;
+}
+.allitem{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: open sans-serif
+}
+.allitem a {
+    margin: 10px ;
+}
+.all-nav2{
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    /* border-radius: 10px; */
+}
+.sectionfirst{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.python-notes{
+    margin-left: 150px;
+    font-size: 20px;
+    height: 100px;
+}
+.section-two{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* .previous{
+    text-align: center;
+    background-color: transparent;
+    color: black;
+} */
+.previous button{
+    font-size: 18px;
+    background-color: aqua;
+    margin-right: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+.section-two a{
+    text-decoration: none;
+    color: black;
+}
+.next button{
+    font-size: 18px;
+    background-color: aqua;
+    margin-right: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
